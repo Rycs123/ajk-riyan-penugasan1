@@ -31,7 +31,7 @@ Berikut ini dokumentasi pengerjaan level 1:
     <br>
     <br>
 
-        Kunjungi <a href='github.com'>Github.com<a/>
+        Kunjungi github.com
 
         Klik 'New'
 
