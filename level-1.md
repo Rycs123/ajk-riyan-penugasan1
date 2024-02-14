@@ -28,9 +28,9 @@ Berikut ini dokumentasi pengerjaan level 1:
     <br>
     <br>
         <b>Langkah-langkah di github</b>
+    <br>
 
         Kunjungi <a href='github.com'>Github.com<a/>
-
 
         Klik 'New'
 
