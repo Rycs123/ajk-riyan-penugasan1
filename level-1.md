@@ -1,189 +1,185 @@
 # Level 1
 
-<h6>Link YouTube: https://youtu.be/3ClY98oVbQI</h6>
-<p>Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini</p>
-<br>
+Link YouTube: https://youtu.be/3ClY98oVbQI
+
+Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini
 
 Berikut ini dokumentasi pengerjaan level 1:
 
-1.  Apa yang harus dikerjakan?
-    Buat sebuah repository di GitHub. Nama repository dalam format ajk-[nama panggilan]-penugasan1. Repository ini juga sebagai tempat menaruh laporan pengerjaan untuk level selanjutnya.
+## Daftar Pertanyaan
 
-        Contoh: ajk-nur-penugasan1
+-   [No. 1](#bermain-di-local-repository)
+-   [No. 2](#bermain-di-local-repository)
+-   [No. 3](#bermain-di-local-repository)
+-   [No. 4](#bermain-di-local-repository)
+-   [No. 5](#bermain-di-local-repository)
 
-        Struktur:
+### 1. Apa yang harus dikerjakan?
 
-        /src (Berisi kode pengerjaan level 1 kalian)
+Buat sebuah repository di GitHub. Nama repository dalam format ajk-[nama panggilan]-penugasan1. Repository ini juga sebagai tempat menaruh laporan pengerjaan untuk level selanjutnya.
 
-        README.md (Readme utama)
+Contoh: ajk-nur-penugasan1
 
-        level-1.md (Laporan level 1)
+Struktur:
 
-        level-2.md (Laporan level 2)
+/src (Berisi kode pengerjaan level 1 kalian)
 
-        level-3.md (Laporan level 3)
+README.md (Readme utama)
 
-        level-4.md (Laporan level 4)
+level-1.md (Laporan level 1)
 
-    <br>
-    <br>
-        <b>Langkah-langkah di github</b>
-    <br>
-    <br>
+level-2.md (Laporan level 2)
 
-        Kunjungi github.com
+level-3.md (Laporan level 3)
 
-        Klik 'New'
+level-4.md (Laporan level 4)
 
-    ![New Button](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/new.png)
+#### Langkah-langkah di github
 
-        Repository name diisi sesuai format seperti ajk-riyan-penugasan1
+Kunjungi github.com
 
-    ![Repo Name](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/repo-name.png)
+Klik 'New'
 
-        Atur ke private, setelah itu klik 'Create repository'
+![New Button](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/new.png)
 
-    ![Create Repo](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/create-repo.png)
+Repository name diisi sesuai format seperti ajk-riyan-penugasan1
 
-    <br>
-    <br>
-        <b>Langkah-langkah di file explorer</b>
+![Repo Name](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/repo-name.png)
 
-        Buat folder di 'working directory'/local folder dan rename sesuai format seperti ajk-riyan-penugasan1
+Atur ke private, setelah itu klik 'Create repository'
 
-    ![Working Directory](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/working-dir.png)
+![Create Repo](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/create-repo.png)
 
-        Setelah itu buat file dan folder seperti struktur di bawah ini
+#### Langkah-langkah di file explorer
 
-    ![Folder Structure](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/folder-structure.png)
+Buat folder di 'working directory'/local folder dan rename sesuai format seperti ajk-riyan-penugasan1
 
-        Setelah itu buka vs code di directory tersebut
+![Working Directory](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/working-dir.png)
 
-2.  Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB. Codebase dibebaskan.
-    <br>
-    <br>
-    <b>Langkah-langkah di vscode:</b>
+Setelah itu buat file dan folder seperti struktur di bawah ini
 
-        Buka terminal vscode (lihat menu 'Terminal' dan pilih 'New Terminal') atau melalui shortcut Ctrl+Shift+~
+![Folder Structure](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/folder-structure.png)
 
-        Ketik 'git init'
+Setelah itu buka vs code di directory tersebut
 
-    ![Git Init](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-init.png)
+### 2. Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB. Codebase dibebaskan.
 
-        Copy remote yang ada di github dan paste ke terminal vscode
+#### Langkah-langkah di vscode:
 
-    ![Git Remote](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-remote-terminal.png)
+Buka terminal vscode (lihat menu 'Terminal' dan pilih 'New Terminal') atau melalui shortcut Ctrl+Shift+~
 
-    <br>
-    <br>
-        <b>Implementasi ke branch development:<b>
+Ketik 'git init'
 
-        Buat branch development terlebih dahulu dengan cara ketik 'git branch -M development'
+![Git Init](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-init.png)
 
-    ![Git Branch Development](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-branch-development.png)
+Copy remote yang ada di github dan paste ke terminal vscode
 
-        Tambahkan semua file bertipe MD dengan cara ketik 'git add \*.md'
+![Git Remote](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-remote-terminal.png)
 
-    ![Git Add All MD Type](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-all-md-ext.png)
+#### Implementasi ke branch development:
 
-        Commit file yang sudah diadd ke dalam staging area dengan cara ketik 'git commit -m "initial commit"'
+Buat branch development terlebih dahulu dengan cara ketik 'git branch -M development'
 
-    ![Git Commit Initial Commit](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-commit-inital-commit.png)
+![Git Branch Development](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-branch-development.png)
 
-    ![Git Graph After Initial Commit](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-graph-after-initial-commit.png)
+Tambahkan semua file bertipe MD dengan cara ketik 'git add \*.md'
 
-        Setelah itu dipush dengan cara ketik 'git push --set-upstream origin development'
+![Git Add All MD Type](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-all-md-ext.png)
 
-    ![Git Push SetUpstream Origin Development](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-push--set-upstream-origin-development.png)
+Commit file yang sudah diadd ke dalam staging area dengan cara ketik 'git commit -m "initial commit"'
 
-        Setelah itu, tambahkan file app.css ke dalam staging area dengan cara ketik 'git add .\src\css\app.css'
+![Git Commit Initial Commit](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-commit-inital-commit.png)
 
-        Dan commit dengan cara ketik 'git commit -m "Add file app"'
+![Git Graph After Initial Commit](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-graph-after-initial-commit.png)
 
-    ![Git Add and Commit App](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-and-commit-app-css.png)
+Setelah itu dipush dengan cara ketik 'git push --set-upstream origin development'
 
-        Jika ingin mengubah commit terakhir, ketik 'git commit --amend -m "Add file app.css"'
+![Git Push SetUpstream Origin Development](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-push--set-upstream-origin-development.png)
 
-    ![Git Commit Amend App Css](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-and-commit-app-css.png)
+Setelah itu, tambahkan file app.css ke dalam staging area dengan cara ketik 'git add .\src\css\app.css'
 
-        Jika ingin membatalkan commit dan menyimpan perubahan dalam working directory, ketik 'git reset --soft HEAD^'
+Dan commit dengan cara ketik 'git commit -m "Add file app"'
 
-    ![Git Reset Soft HEAD](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-reset-commit-app-css.png)
+![Git Add and Commit App](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-and-commit-app-css.png)
 
-        Pesan yang dicommit akan hilang
+Jika ingin mengubah commit terakhir, ketik 'git commit --amend -m "Add file app.css"'
 
-        Add kembali file app.css seperti sebelumnya
+![Git Commit Amend App Css](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-and-commit-app-css.png)
 
-        Lalu jika ingin melihat status (apa yang kurang dan apa yang sudah dilakukan), ketik git status
+Jika ingin membatalkan commit dan menyimpan perubahan dalam working directory, ketik 'git reset --soft HEAD^'
 
-    ![Git status](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-status-app-js.png)
+![Git Reset Soft HEAD](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-reset-commit-app-css.png)
 
-        Hanya sebagai ilustrasi saja
+Pesan yang dicommit akan hilang
 
-        Setelah itu commit ulang dengan commit message yang sama dan push
+Add kembali file app.css seperti sebelumnya
 
-    ![Commit and Push App JS](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-commit-push-add-file-app-js.png)
+Lalu jika ingin melihat status (apa yang kurang dan apa yang sudah dilakukan), ketik git status
 
-        Hanya ilustrasi saja walaupun filenya berbeda
+![Git status](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-add-status-app-js.png)
 
-    <br>
-    <br>
-        <b>Implementasi ke branch feature/login:</b>
+Hanya sebagai ilustrasi saja
 
-        Ketik 'git checkout --orphan feature/login' untuk membuat branch baru tanpa membawa commit history dari branch manapun
+Setelah itu commit ulang dengan commit message yang sama dan push
 
-    ![Git Checkout FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-checkout--orphan-feature-login.png)
+![Commit and Push App JS](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-commit-push-add-file-app-js.png)
 
-        Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
+Hanya ilustrasi saja walaupun filenya berbeda
 
-    ![Git Reset Hard At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-reset--hard.png)
+#### Implementasi ke branch feature/login:
 
-        Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
+Ketik 'git checkout --orphan feature/login' untuk membuat branch baru tanpa membawa commit history dari branch manapun
 
-    ![Git Add Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-index-html.png)
+![Git Checkout FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-checkout--orphan-feature-login.png)
 
-    ![Git Push Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-index-html.png)
+Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
 
-        Lalu dipush
+![Git Reset Hard At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-reset--hard.png)
 
-    ![Git Push SetUps At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-set-ups-featLogin.png)
+Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
 
-    ![git graph after push index](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-graph-after-push-index.png)
+![Git Add Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-index-html.png)
 
-        Lalu tambahkan file login.html ke dalam staging area dan commit menggunakan conventional commit message
+![Git Push Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-index-html.png)
 
-    ![git-add-login-html](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-login-html.png)
+Lalu dipush
 
-    ![git-commit-feat-login](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-commit-feat-login.png)
+![Git Push SetUps At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-set-ups-featLogin.png)
 
-        Setelah itu push dengan cara ketik 'git push'
+![git graph after push index](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-graph-after-push-index.png)
 
-        Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+Lalu tambahkan file login.html ke dalam staging area dan commit menggunakan conventional commit message
 
-    <br>
-    <br>
-        <b>Implementasi ke branch feature/register:</b>
+![git-add-login-html](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-login-html.png)
 
-        Ketik 'git checkout --orphan feature/register' untuk membuat branch baru tanpa membawa commit history dari branch manapun
+![git-commit-feat-login](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-commit-feat-login.png)
 
-    ![git-checkout-feature-register](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-checkout-feature-register.png)
+Setelah itu push dengan cara ketik 'git push'
 
-        Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
+Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
 
-    ![git-reset-hard](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-reset-hard.png)
+#### Implementasi ke branch feature/register:
 
-        Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
+Ketik 'git checkout --orphan feature/register' untuk membuat branch baru tanpa membawa commit history dari branch manapun
 
-        Lalu dipush, dengan cara ketik 'git push --set-upstream origin feature/register'
+![git-checkout-feature-register](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-checkout-feature-register.png)
 
-    ![git-add-commit-push-file-index-html.png](src/img/featureRegister/git-add-commit-push-file-index-html.png)
+Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
 
-        Lalu tambahkan file register.html ke dalam staging area dan commit menggunakan conventional commit message
+![git-reset-hard](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-reset-hard.png)
 
-    ![git-add-commit-register](src/img/featureRegister/git-add-commit-register.png)
+Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
 
-        Setelah itu push dengan cara ketik 'git push'
+Lalu dipush, dengan cara ketik 'git push --set-upstream origin feature/register'
 
-    ![git-push](src/img/featureRegister/git-push.png)
+![git-add-commit-push-file-index-html.png](src/img/featureRegister/git-add-commit-push-file-index-html.png)
 
-        Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+Lalu tambahkan file register.html ke dalam staging area dan commit menggunakan conventional commit message
+
+![git-add-commit-register](src/img/featureRegister/git-add-commit-register.png)
+
+Setelah itu push dengan cara ketik 'git push'
+
+![git-push](src/img/featureRegister/git-push.png)
+
+Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
