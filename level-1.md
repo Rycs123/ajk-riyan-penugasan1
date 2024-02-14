@@ -26,7 +26,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 
     level-4.md (Laporan level 4)
 
-    Langkah-langkah di github
+    <b>Langkah-langkah di github</b>
 
     - Kunjungi <a href='github.com'>Github.com<a/>
 
@@ -42,7 +42,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 
     ![Create Repo](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/create-repo.png)
 
-    Langkah-langkah di file explorer
+    <b>Langkah-langkah di file explorer</b>
 
     - Buat folder di 'working directory'/local folder dan rename sesuai format seperti ajk-riyan-penugasan1
 
@@ -56,7 +56,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 
 2. Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB. Codebase dibebaskan.
 
-    Langkah-langkah di vscode:
+    <b>Langkah-langkah di vscode:</b>
 
     - Buka terminal vscode (lihat menu 'Terminal' dan pilih 'New Terminal') atau melalui shortcut Ctrl+Shift+~
 
