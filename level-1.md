@@ -8,11 +8,11 @@ Berikut ini dokumentasi pengerjaan level 1:
 
 ## Daftar Pertanyaan
 
--   [No. 1](#1-apa-yang-harus-dikerjakan)
--   [No. 2](#2-implementasikan-penggunaan-branching)
--   [No. 3](#bermain-di-local-repository)
--   [No. 4](#bermain-di-local-repository)
--   [No. 5](#bermain-di-local-repository)
+-   [1. Apa yang harus dikerjakan?](#1-apa-yang-harus-dikerjakan)
+-   [2. Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB. Codebase dibebaskan.](#2-implementasikan-penggunaan-branching)
+-   [Implementasikan intruksi git untuk push, pull, stash, reset, diff, dan merge. Adanya tambahan intruksi git selain yang disebutkan akan lebih baik.](#3-implementasikan-intruksi-git)
+-   [Implementasikan sebuah penanganan conflict di branch development ketika setelah merge dari branch featureA lalu merge dari branch featureB. Catatan: conflict bisa terjadi jika kedua branch mengerjakan di file dan line code yang sama. Buatlah skenario sendiri.](#bermain-di-local-repository)
+-   [5. Gunakan merge no fast forward.](#bermain-di-local-repository)
 
 <br>
 
@@ -199,3 +199,39 @@ Setelah itu push dengan cara ketik 'git push'
 ![git-push](src/img/featureRegister/git-push.png)
 
 Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+
+<br>
+
+### 3. Implementasikan intruksi git
+
+<br>
+
+-   git stash
+
+    git stash memiliki banyak manfaat seperti menyimpan perubahan tanpa membuat commit, beralih branch tanpa komit, mengatasi konflik saat pull, dan pembersihan working directory
+
+    contoh penggunaan git stash
+
+    sebelum ketik git stash saya delete suatu script (lebih jelasnya bisa dilihat di gambar)
+
+    ![before use stash](src/img/featureRegister/before-git-stash.png)
+
+    setelah ketik git stash, apa yang saya delete akan kembali
+
+    ![after use stash](src/img/featureRegister/after-git-stash.png)
+
+    jadi siapapun dapat berpindah branch untuk melakukan commit atau yang lainnya
+
+    jika ingin kembali, tinggal ketik git stash pop
+
+    ![stash pop](src/img/featureRegister/git-stash-pop.png)
+
+-   git push --force-with-lease
+
+    perintah yang digunakan untuk memaksa push ke remote repository tanpa menghancurkan perubahan yang telah dilakukan oleh kontributor lain. Perintah ini aman digunakan ketika Anda ingin memperbarui remote repository dengan perubahan lokal Anda, tetapi Anda ingin memastikan bahwa Anda tidak menimpa perubahan yang telah ada di remote repository oleh kontributor lain.
+
+### 4.Implementasikan sebuah penanganan conflict di branch development ketika setelah merge dari branch featureA lalu merge dari branch featureB
+
+<br>
+
+### 5. Gunakan merge no fast forward.
