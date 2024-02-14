@@ -14,6 +14,8 @@ Berikut ini dokumentasi pengerjaan level 1:
 -   [No. 4](#bermain-di-local-repository)
 -   [No. 5](#bermain-di-local-repository)
 
+<br>
+
 ### 1. Apa yang harus dikerjakan?
 
 Buat sebuah repository di GitHub. Nama repository dalam format ajk-[nama panggilan]-penugasan1. Repository ini juga sebagai tempat menaruh laporan pengerjaan untuk level selanjutnya.
