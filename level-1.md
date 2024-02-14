@@ -9,7 +9,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 ## Daftar Pertanyaan
 
 -   [No. 1](#1-apa-yang-harus-dikerjakan)
--   [No. 2](#2-implementasikan-penggunaan-branching-yang-terdiri-dari-master-development-featureA-dan-featureB-Codebase-dibebaskan.)
+-   [No. 2](#2)
 -   [No. 3](#bermain-di-local-repository)
 -   [No. 4](#bermain-di-local-repository)
 -   [No. 5](#bermain-di-local-repository)
