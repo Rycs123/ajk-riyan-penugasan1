@@ -73,7 +73,9 @@ Berikut ini dokumentasi pengerjaan level 1:
 
     ![Git Remote](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-remote-terminal.png)
 
-        Implementasi ke branch development:
+    <br>
+    <br>
+        <b>Implementasi ke branch development:<b>
 
         - Buat branch development terlebih dahulu dengan cara ketik 'git branch -M development'
 
@@ -123,36 +125,36 @@ Berikut ini dokumentasi pengerjaan level 1:
 
         - Hanya ilustrasi saja walaupun filenya berbeda
 
-<br>
-<br>
-    <b>Implementasi ke branch feature/login:<b>
+    <br>
+    <br>
+        <b>Implementasi ke branch feature/login:</b>
 
-    -   Ketik 'git checkout --orphan feature/login' untuk membuat branch baru tanpa membawa commit history dari branch manapun
+        -   Ketik 'git checkout --orphan feature/login' untuk membuat branch baru tanpa membawa commit history dari branch manapun
 
     ![Git Checkout FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-checkout--orphan-feature-login.png)
 
-    -   Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
+        -   Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
 
     ![Git Reset Hard At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-reset--hard.png)
 
-    -   Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
+        -   Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
 
     ![Git Add Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-index-html.png)
 
     ![Git Push Index At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-index-html.png)
 
-    -   Lalu dipush
+        -   Lalu dipush
 
     ![Git Push SetUps At FeatLogin](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-push-set-ups-featLogin.png)
 
-    ![git graph after push index](src/img/featureLogin/git-graph-after-push-index.png)
+    ![git graph after push index](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-graph-after-push-index.png)
 
-    -   Lalu tambahkan file login.html ke dala staging area dan commit menggunakan conventional commit message
+        -   Lalu tambahkan file login.html ke dala staging area dan commit menggunakan conventional commit message
 
-    ![git-add-login-html](src/img/featureLogin/git-add-login-html.png)
+    ![git-add-login-html](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-login-html.png)
 
-    ![git-commit-feat-login](src/img/featureLogin/git-commit-feat-login.png)
+    ![git-commit-feat-login](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-commit-feat-login.png)
 
-    -   Setelah itu push dengan cara ketik 'git push'
+        -   Setelah itu push dengan cara ketik 'git push'
 
-    -   Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+        -   Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
