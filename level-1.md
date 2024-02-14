@@ -9,7 +9,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 ## Daftar Pertanyaan
 
 -   [No. 1](#1-apa-yang-harus-dikerjakan)
--   [No. 2](#2-implementasikan-penggunaan-branching-yang-terdiri-dari-master,-development,-featureA,-dan-featureB)
+-   [No. 2](#2-implementasikan-penggunaan-branching)
 -   [No. 3](#bermain-di-local-repository)
 -   [No. 4](#bermain-di-local-repository)
 -   [No. 5](#bermain-di-local-repository)
@@ -70,7 +70,7 @@ Setelah itu buka vs code di directory tersebut
 
 <br>
 
-### 2. Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB
+### 2. Implementasikan penggunaan branching
 
 <br>
 
