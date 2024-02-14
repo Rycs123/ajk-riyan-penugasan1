@@ -1,11 +1,11 @@
 # Level 1
 
-<h3>Link YouTube: https://youtu.be/3ClY98oVbQI</h3>
+<h6>Link YouTube: https://youtu.be/3ClY98oVbQI</h6>
 <br>
 <br>
-Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini
+<p>Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini</p>
 <br>
-
+<p>
 Berikut ini dokumentasi pengerjaan level 1:
 
 1.  Apa yang harus dikerjakan?
@@ -27,6 +27,7 @@ Berikut ini dokumentasi pengerjaan level 1:
 
         level-4.md (Laporan level 4)
 
+    </p>
     <br>
     <br>
         <b>Langkah-langkah di github</b>
