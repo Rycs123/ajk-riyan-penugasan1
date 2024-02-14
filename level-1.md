@@ -1,8 +1,9 @@
 # Level 1
 
-Link YouTube: https://youtu.be/3ClY98oVbQI
+<h3>Link YouTube: https://youtu.be/3ClY98oVbQI</h3>
 <br>
-Disclaimer: Vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini
+<br>
+Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini
 <br>
 
 Berikut ini dokumentasi pengerjaan level 1:
@@ -149,12 +150,40 @@ Berikut ini dokumentasi pengerjaan level 1:
 
     ![git graph after push index](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-graph-after-push-index.png)
 
-        -   Lalu tambahkan file login.html ke dala staging area dan commit menggunakan conventional commit message
+        -   Lalu tambahkan file login.html ke dalam staging area dan commit menggunakan conventional commit message
 
     ![git-add-login-html](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-add-login-html.png)
 
     ![git-commit-feat-login](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureLogin/git-commit-feat-login.png)
 
         -   Setelah itu push dengan cara ketik 'git push'
+
+        -   Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+
+    <br>
+    <br>
+        <b>Implementasi ke branch feature/register:</b>
+
+        -   Ketik 'git checkout --orphan feature/register' untuk membuat branch baru tanpa membawa commit history dari branch manapun
+
+    ![git-checkout-feature-register](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-checkout-feature-register.png)
+
+        -   Ketik 'git reset --hard' untuk menghapus file-file yang ada di dalam staging area, untuk menghapus file yang berada di working directory tinggal dihapus manual, lalu add filenya juga secara manual
+
+    ![git-reset-hard](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/featureRegister/git-reset-hard.png)
+
+        -   Setelah itu tambahkan file index.html ke dalam staging area lalu commit dengan cara ketik 'git add .\src\index.html' dan 'git commit -m "Add file index.html"'
+
+        -   Lalu dipush, dengan cara ketik 'git push --set-upstream origin feature/register'
+
+    ![git-add-commit-push-file-index-html.png](src/img/featureRegister/git-add-commit-push-file-index-html.png)
+
+        -   Lalu tambahkan file register.html ke dalam staging area dan commit menggunakan conventional commit message
+
+    ![git-add-commit-register](src/img/featureRegister/git-add-commit-register.png)
+
+        -   Setelah itu push dengan cara ketik 'git push'
+
+    ![git-push](src/img/featureRegister/git-push.png)
 
         -   Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
