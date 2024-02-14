@@ -6,6 +6,6 @@
 | ----------------------- | ---------- |
 | Riyanda Cavin Sinambela | 5025221100 |
 
-## Pendahuluan
+## Tentang Repository Ini
 
 Repository ini berisi laporan yang sudah saya kerjakan
