@@ -1,7 +1,6 @@
 # Level 1
 
 <h6>Link YouTube: https://youtu.be/3ClY98oVbQI</h6>
-<br>
 <p>Disclaimer: vidio di youtube sudah dibuat sesingkat mungkin jadi bisa saja ada perbedaan command, tetapi tujuannya tetap satu yaitu menyelesaikan level ini</p>
 <br>
 
