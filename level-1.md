@@ -34,6 +34,8 @@ level-3.md (Laporan level 3)
 
 level-4.md (Laporan level 4)
 
+<br>
+
 #### Langkah-langkah di github
 
 Kunjungi github.com
@@ -50,6 +52,8 @@ Atur ke private, setelah itu klik 'Create repository'
 
 ![Create Repo](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/create-repo.png)
 
+<br>
+
 #### Langkah-langkah di file explorer
 
 Buat folder di 'working directory'/local folder dan rename sesuai format seperti ajk-riyan-penugasan1
@@ -62,7 +66,11 @@ Setelah itu buat file dan folder seperti struktur di bawah ini
 
 Setelah itu buka vs code di directory tersebut
 
+<br>
+
 ### 2. Implementasikan penggunaan branching yang terdiri dari master, development, featureA, dan featureB. Codebase dibebaskan.
+
+<br>
 
 #### Langkah-langkah di vscode:
 
@@ -75,6 +83,8 @@ Ketik 'git init'
 Copy remote yang ada di github dan paste ke terminal vscode
 
 ![Git Remote](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/development/git-remote-terminal.png)
+
+<br>
 
 #### Implementasi ke branch development:
 
@@ -126,6 +136,8 @@ Setelah itu commit ulang dengan commit message yang sama dan push
 
 Hanya ilustrasi saja walaupun filenya berbeda
 
+<br>
+
 #### Implementasi ke branch feature/login:
 
 Ketik 'git checkout --orphan feature/login' untuk membuat branch baru tanpa membawa commit history dari branch manapun
@@ -157,6 +169,8 @@ Lalu tambahkan file login.html ke dalam staging area dan commit menggunakan conv
 Setelah itu push dengan cara ketik 'git push'
 
 Setelah itu perhatikan apakah ada folder/file lain selain index.html dan login.html, jika ada hapus saja karena jika tidak dihapus maka akan ada semacam peringatan untuk menghapus(file/folder tersebut) sebelum switch branch
+
+<br>
 
 #### Implementasi ke branch feature/register:
 
