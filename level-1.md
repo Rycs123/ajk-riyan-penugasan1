@@ -13,7 +13,8 @@ Berikut ini dokumentasi pengerjaan level 1:
 -   [3. Implementasikan intruksi git untuk push, pull, stash, reset, diff, dan merge. Adanya tambahan intruksi git selain yang disebutkan akan lebih baik.](#3-implementasikan-intruksi-git)
 -   [4. Implementasikan sebuah penanganan conflict di branch development ketika setelah merge dari branch featureA lalu merge dari branch featureB. Catatan: conflict bisa terjadi jika kedua branch mengerjakan di file dan line code yang sama. Buatlah skenario sendiri.](#4-implementasikan-sebuah-penanganan-conflict-di-branch-development-ketika-setelah-merge-dari-branch-featureA-lalu-merge-dari-branch-featureB)
 -   [5. Gunakan merge no fast forward.](#5-gunakan-merge-no-fast-forward)
--   [6. Kendala atau kesulitan](#kendala-atau-kesulitan)
+-   [6. Kondisi git graph](#kondisi-git-graph)
+-   [7. Kendala atau kesulitan](#kendala-atau-kesulitan)
 
 <br>
 
@@ -412,6 +413,12 @@ Solusinya tambahin --allowed-unrelated-histories
 setelah itu add ulang, commit, dan push jika ingin ditambahkan ke dalam commit history
 
 <br>
+
+### Kondisi Git Graph
+
+![git graph](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/git-graph1.png)
+
+![git graph](https://github.com/Rycs123/ajk-riyan-penugasan1/blob/development/src/img/general/git-graph2.png)
 
 ## Kendala atau kesulitan
 
