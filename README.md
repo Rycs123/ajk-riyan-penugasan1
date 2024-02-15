@@ -9,5 +9,3 @@
 ## Pendahuluan
 
 Repository ini berisi laporan yang sudah saya kerjakan
-
-Test git push --force-with-lease
